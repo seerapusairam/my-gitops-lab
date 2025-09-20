@@ -83,7 +83,7 @@ paths:
                 $ref: "#/components/schemas/Transaction"
         "404":
           description: Transaction not found
-     patch:
+    patch:
       description: Change a transaction
       summary: Update a transaction
       tags: ["Transactions"]
